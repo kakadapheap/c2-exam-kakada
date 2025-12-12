@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "email": "john@mail.com",
+    "password": "changeme",
+    "name": "Jhon",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/LDOO4Qs.jpg",
+    "creationAt": "2025-12-12T06:33:13.000Z",
+    "updatedAt": "2025-12-12T06:33:13.000Z"
+  },
+  {
+    "id": 2,
+    "email": "maria@mail.com",
+    "password": "12345",
+    "name": "Maria",
+    "role": "customer",
+    "avatar": "https://i.imgur.com/DTfowdu.jpg",
+    "creationAt": "2025-12-12T06:33:13.000Z",
+    "updatedAt": "2025-12-12T06:33:13.000Z"
+  },
+  {
+    "id": 3,
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "name": "Admin",
+    "role": "admin",
+    "avatar": "https://i.imgur.com/yhW6Yw1.jpg",
+    "creationAt": "2025-12-12T06:33:13.000Z",
+    "updatedAt": "2025-12-12T06:33:13.000Z"
+  },
+  {
+    "id": 4,
+    "email": "monali@gmail.com",
+    "password": "monali",
+    "name": "monali",
+    "role": "customer",
+    "avatar": "https://treesforall.nl/app/uploads/2022/03/Bos-Nederland-Epe-e1719389547661-0x1400-c-default.webp",
+    "creationAt": "2025-12-12T06:48:38.000Z",
+    "updatedAt": "2025-12-12T06:48:38.000Z"
+  },
+  {
+    "id": 5,
+    "email": "khusi@gmail.com",
+    "password": "khusi",
+    "name": "Khusi Sen",
+    "role": "customer",
+    "avatar": "https://treesforall.nl/app/uploads/2022/03/Bos-Nederland-Epe-e1719389547661-0x1400-c-default.webp",
+    "creationAt": "2025-12-12T06:55:15.000Z",
+    "updatedAt": "2025-12-12T06:55:15.000Z"
+  }
+]

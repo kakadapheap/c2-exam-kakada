@@ -1,0 +1,182 @@
+[
+  {
+    "id": 131,
+    "title": "Cabernet Sauvignon Gran Reserva",
+    "slug": "cabernet-sauvignon-gran-reserva",
+    "price": 28,
+    "description": "Aromas a frutos negros y especias.",
+    "category": {
+      "id": 1,
+      "name": "naruto Uzumaki gaaaa UPDATE IMAGE",
+      "slug": "naruto-uzumaki-gaaaa-update-image",
+      "image": "https://i.imgur.com/QkIa5tT.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T14:48:35.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:39.000Z",
+    "updatedAt": "2025-12-11T19:49:39.000Z"
+  },
+  {
+    "id": 135,
+    "title": "Chardonnay Clásico",
+    "slug": "chardonnay-clasico",
+    "price": 20,
+    "description": "Blanco fresco con notas tropicales.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:42.000Z",
+    "updatedAt": "2025-12-11T19:49:42.000Z"
+  },
+  {
+    "id": 136,
+    "title": "Sauvignon Blanc Reserva",
+    "slug": "sauvignon-blanc-reserva",
+    "price": 24,
+    "description": "Herbáceo y cítrico, muy refrescante.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:43.000Z",
+    "updatedAt": "2025-12-11T19:49:43.000Z"
+  },
+  {
+    "id": 137,
+    "title": "Torrontés Andino",
+    "slug": "torrontes-andino",
+    "price": 19,
+    "description": "Aromático, floral y suave.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:43.000Z",
+    "updatedAt": "2025-12-11T19:49:43.000Z"
+  },
+  {
+    "id": 138,
+    "title": "Riesling Joven",
+    "slug": "riesling-joven",
+    "price": 22,
+    "description": "Afrutado y equilibrado.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:44.000Z",
+    "updatedAt": "2025-12-11T19:49:44.000Z"
+  },
+  {
+    "id": 139,
+    "title": "Viognier Selección",
+    "slug": "viognier-seleccion",
+    "price": 23,
+    "description": "Aromas florales y frutales.",
+    "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:44.000Z",
+    "updatedAt": "2025-12-11T19:49:44.000Z"
+  },
+  {
+    "id": 140,
+    "title": "Rosado Estival",
+    "slug": "rosado-estival",
+    "price": 17,
+    "description": "Fresco, frutal y fácil de beber.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:45.000Z",
+    "updatedAt": "2025-12-11T19:49:45.000Z"
+  },
+  {
+    "id": 141,
+    "title": "Rosado Premium",
+    "slug": "rosado-premium",
+    "price": 22,
+    "description": "Notas a frutilla y cereza.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:45.000Z",
+    "updatedAt": "2025-12-11T19:49:45.000Z"
+  },
+  {
+    "id": 142,
+    "title": "Rosé Elegance",
+    "slug": "rose-elegance",
+    "price": 24,
+    "description": "Seco y elegante.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:46.000Z",
+    "updatedAt": "2025-12-11T19:49:46.000Z"
+  },
+  {
+    "id": 143,
+    "title": "Malbec Rosé",
+    "slug": "malbec-rose",
+    "price": 18,
+    "description": "Dulzor leve y aromas florales.",
+    "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-12-11T05:57:59.000Z",
+      "updatedAt": "2025-12-11T05:57:59.000Z"
+    },
+    "images": ["https://placehold.co/600x400"],
+    "creationAt": "2025-12-11T19:49:46.000Z",
+    "updatedAt": "2025-12-11T19:49:46.000Z"
+  }
+]

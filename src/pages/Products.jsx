@@ -1,40 +1,51 @@
 import { Link } from "react-router-dom";
+import products from "../assets/data/products.json";
 
 export default function Products() {
-  const items = [
-    { id: 1, title: "Product 1", price: 25 },
-    { id: 2, title: "Product 2", price: 40 },
-    { id: 3, title: "Product 2", price: 40 },
-    { id: 4, title: "Product 2", price: 30 },
-    { id: 5, title: "Product 2", price: 60 },
-    { id: 6, title: "Product 2", price: 90 },
-    { id: 7, title: "Product 2", price: 10 },
-    { id: 8, title: "Product 2", price: 40 },
-    { id: 9, title: "Product 2", price: 20 },
-    { id: 10, title: "Product 2", price: 40 },
-  ];
+  const items = products;
 
   return (
     <div className="space-y-4">
-      <div>
-        <h1 className="text-2xl font-semibold">Products</h1>
-        <p className="text-slate-600 text-sm">
-          Click a product to view detail.
-        </p>
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-semibold">Products</h1>
+          <p className="text-sm text-slate-600">Manage your product catalog</p>
+        </div>
+
+        <Link
+          to="/products/new"
+          className="inline-flex items-center rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800"
+        >
+          + Add product
+        </Link>
       </div>
 
-      <div className="grid gap-4 ">
+      <div className="grid gap-4">
         {items.map((p) => (
           <Link
             key={p.id}
             to={`/products/${p.id}`}
-            className="rounded-xl border p-4 hover:shadow-sm transition"
+            className="rounded-xl border bg-white p-4 hover:shadow-sm transition"
           >
-            <div className="text-lg font-medium">{p.title}</div>
-            <div className="text-slate-600 text-sm">${p.price}</div>
-            <div className="mt-3 inline-flex text-sm font-medium text-slate-900 underline">
-              View detail
+            <img
+              src={p.images?.[0] ?? "https://placehold.co/600x400"}
+              alt={p.title}
+              className="h-40 w-full rounded-lg object-cover"
+              loading="lazy"
+            />
+            <div className="mt-3 flex items-start justify-between gap-3">
+              <div>
+                <div className="font-medium line-clamp-1">{p.title}</div>
+                <div className="text-sm text-slate-600 line-clamp-1">
+                  {p.category?.name}
+                </div>
+              </div>
+              <div className="shrink-0 font-semibold">${p.price}</div>
             </div>
+
+            <p className="mt-2 text-sm text-slate-600 line-clamp-2">
+              {p.description}
+            </p>
           </Link>
         ))}
       </div>
